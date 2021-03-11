@@ -87,12 +87,15 @@
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
     transition: all 6s;
+
 }
 
 .ex-6-img:hover{
-    width: 1000px;
+    width: 800px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     
     filter: grayscale(100%);
+    border-radius: 50%;
 
 }
 
