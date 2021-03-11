@@ -71,6 +71,12 @@
 
 }
 
+.ex-5-square:active{
+    background-color: darkkhaki;
+    width: 40px;
+    height: 40px;
+}
+
 
 
 
