@@ -123,9 +123,20 @@
     margin: 50px 100px;
     width: 400px;
     animation-name: scalatura;
+    transition: 5s;
 }
 
-
+@keyframes scalatura{
+  0%{
+      left: 0;
+      top: 0;
+  }
+  50%{
+      width: 800px;
+      border-radius: 25%;
+      filter: blur(2%);
+  }
+}
 
 .ex-9-img:hover{
     
