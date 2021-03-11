@@ -91,7 +91,7 @@
 }
 
 .ex-6-img:hover{
-    width: 800px;
+    width: 650px;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     
     filter: grayscale(100%);
@@ -123,9 +123,9 @@
     margin: 50px 100px;
     width: 400px;
     animation-name: scalatura;
-    transition: 10s;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+    
+    animation-duration: 6s;
+    animation-iteration-count: 1;
 }
 
 @keyframes scalatura{
@@ -134,13 +134,22 @@
       top: 0;
   }
   50%{
-      width: 800px;
+      width: 255px;
       border-radius: 25px;
-      filter: blur(20px);
+      filter: blur(10px);
   }
 }
 
-.ex-9-img:hover{
+.ex-9-img:active{
+    width: 500px;
+    border-radius: 25px;
+    transition: 6s;
+    webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    
+    filter: grayscale(100%);
+
+
+
     
 
 
