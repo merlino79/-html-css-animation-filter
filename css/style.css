@@ -123,7 +123,9 @@
     margin: 50px 100px;
     width: 400px;
     animation-name: scalatura;
-    transition: 5s;
+    transition: 10s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes scalatura{
@@ -133,8 +135,8 @@
   }
   50%{
       width: 800px;
-      border-radius: 25%;
-      filter: blur(2%);
+      border-radius: 25px;
+      filter: blur(20px);
   }
 }
 
