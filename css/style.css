@@ -95,7 +95,7 @@
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     
     filter: grayscale(100%);
-    border-radius: 50%;
+    border-radius: 25%;
 
 }
 
@@ -122,9 +122,19 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    animation-name: scalatura;
 }
 
-.
+
+
+.ex-9-img:hover{
+    
+
+
+}
+
+
+
 
 .ex-10-icon {
     font-size: 60px;
