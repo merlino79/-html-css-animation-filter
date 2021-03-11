@@ -99,6 +99,11 @@
 
 }
 
+.ex-7-img:hover{
+    transition: all 5s;
+    filter: sepia(80%);
+}
+
 
 
 .ex-9-img {
